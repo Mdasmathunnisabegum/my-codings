@@ -1,10 +1,5 @@
-n = input()
-print(f"Lenght is {len(n)}")
-l = []
-for i in range(len(n)):
-    l.append(n[i])
-    
-l = l[::-1]
-print("Rev:")
-for i in range(len(n)):
-    print(l[i])
+l=[1,2,4,5]
+size=len(l)
+for i in range(1,size+2):
+    if i not in l:
+        print(f"missing num is:{i}")
